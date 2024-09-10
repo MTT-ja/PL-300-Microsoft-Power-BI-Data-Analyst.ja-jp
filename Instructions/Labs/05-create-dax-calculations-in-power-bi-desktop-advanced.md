@@ -16,32 +16,21 @@ lab:
 
 - CALCULATE() 関数を使用してフィルター コンテキストを操作する
 - タイム インテリジェンス関数を使用する
-
+- 
 **この配信には約 45 分かかります。**
 
-## **フィルター コンテキストを使用する**
+## 作業の開始
 
-''重要: 前のラボから続行している (および、そのラボを正常に完了した) 場合は、このタスクを完了せず、代わりに次のタスクから続行してください。''**
+この演習を完了するには、まず Web ブラウザーを開き、次の URL を入力して zip フォルダーをダウンロードします。
 
-1. Power BI Desktop を開きます。
 
-    ![Power BI Desktop アイコン](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+`https://github.com/MicrosoftLearning/PL-300-Microsoft-Power-BI-Data-Analyst/raw/Main/Allfiles/Labs/05-create-dax-calculations-in-power-bi-desktop-advanced/05-advanced-dax.zip`
 
-    ''ヒント: 既定では、Power BI Desktop の前に [はじめに] ダイアログ ボックスが開きます。サインインしてから、ポップアップを閉じることができます。''**
+フォルダーを **C:\Users\Student\Downloads\05-advanced-dax** フォルダーに展開します。
 
-1. スターター Power BI Desktop ファイルを開くには、 **[ファイル] > [レポートを開く] > [レポートの参照]** の順に選択します。
+**05-Starter-Sales Analysis.pbix** ファイルを開きます。
 
-1. **[開く]** ウィンドウで、**D:\Allfiles\Labs\05-create-dax-calculations-in-power-bi-desktop-advanced\Starter** フォルダーに移動し、**Sales Analysis** ファイルを開きます。
-
-1. 情報ウィンドウが開いている場合はすべて閉じます。
-
-1. リボンの下の警告メッセージに注目してください。 
-
-    "このメッセージは、クエリが、モデル テーブルとしての読み込みに適用されていないことを警告しています。クエリは、このラボの後半で適用します。"**
-    
-    "警告メッセージを無視するには、警告メッセージの右側にある **[X]** を選びます。"**
-
-1. ファイルのコピーを作成するには、**[ファイル] > [名前を付けて保存]** の順に移動し、**D:\Allfiles\MySolution** フォルダーに保存します。
+> ***注**: **[キャンセル]** を選択すると、サインインを閉じることができます。 他のすべての情報ウィンドウを閉じます。 変更の適用を求めるメッセージが表示されたら、**[後で適用]** を選択します。
 
 ## **行列の視覚エフェクトを作成する**
 
